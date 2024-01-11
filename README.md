@@ -1,4 +1,4 @@
-# Bioinform-tica
+# Bioinformatica
 
 ## Perguntas:
 
