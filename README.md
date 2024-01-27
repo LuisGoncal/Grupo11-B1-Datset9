@@ -28,10 +28,8 @@ Formatação dos dados e metadados para análise. Descrição de dataset e carac
 
 #### Etapa 2 - Redução de Dimensionalidade e Clustering de Dados
 
-Nesta etapa, iniciou-se por realizar a filtração de dados e testes estatísticos univariados. De seguida foram aplicados tecnicas de reduçao de dimensionalidade, nomeadamente PCA no qual foram selecionado  \textit{n_components}=0.9
+Nesta etapa, iniciou-se por realizar a filtração de dados e testes estatísticos univariados. De seguida foram aplicados tecnicas de reduçao de dimensionalidade, nomeadamente PCA no qual foram selecionado  *n_components*=0.9 para o qual foi obtido um valor de 86, que significa que é necessario 86 componetnes para explicar 90% da variabilidade. Posto isto foi realizado um *Agglomerative Clustering* de forma a organizar os dados relativos  ao 'time', onde os clusters mais semelhantes são agrupados em níveis mais altos da hierarquia, especificamente, o clustering hierárquico aglomerativo segue uma abordagem de baixo para cima, onde cada ponto de dados começa como um cluster individual e, em seguida, clusters adjacentes são sucessivamente combinados com base em sua similaridade, neste caso foram selecionados 4 clusters uma vez que existem 4 variaveis de tempo. Também foi necessário recorrer ao método de K-means com o objetivo de criar grupos onde os pontos estejam próximos dos centróides dos clusters, minimizando as distâncias entre eles. Para tal estes dois metodos foram aplicados a diferente dados, primeiro foram aplicados ao dados standardizados e os seguintes a uma seleção específica de genes diferencialmente expressos.
 
-
-Filtração de dados e testes estatísticos univariados. Aplicaçao de técnicas de redução de dimensionalidade (PCA, t-SNE) e métodos de clustering (Hierárquico, k-Means). Análise e interpretação de resultados.
 
 #### Etapa 3 - Modelos de Aprendizagem Máquina
 
