@@ -24,7 +24,7 @@ Ficheiros:
 
 #### Etapa 1 - Exploração do Dataset Pela Análise de Dados e Metadados
 
-Formatação dos dados e metadados para análise. Descrição de dataset e caracterização de dados atribuídos com base no documento referente ao respetivo dataset. Vizualição de gráficos exploratórios de caracterísitcas principais de metadados, nomeadamente 'time' e 'age'. Etapas de standardização e passos de preprocessamentos de dados, nomeadamente tratamento de valores nulos (missing values) e transposição de dados. Seleção de metadados com maior relevância para análise.
+Formatação dos dados e metadados para análise. Descrição de dataset e caracterização de dados atribuídos com base no documento referente ao respetivo dataset. Vizualição de gráficos exploratórios de caracterísitcas principais de metadados, nomeadamente  o 'time'. Etapas de standardização e passos de preprocessamentos de dados, nomeadamente tratamento de valores nulos (missing values) e transposição de dados. Seleção de metadados com maior relevância para análise.
 
 #### Etapa 2 - Redução de Dimensionalidade e Clustering de Dados
 
@@ -33,7 +33,12 @@ Nesta etapa, iniciou-se por realizar a filtração de dados e testes estatístic
 
 #### Etapa 3 - Modelos de Aprendizagem Máquina
 
-Desenvolvimento e aplicação de algoritmos de aprendizagem máquina supervisionada (Árvores de Decisão, Regressão Logística, SVM, NB, KNN). Análise de comportamento de modelos baseada em métricas de erro (accuracy, ROC) e aplicação de métodos de previsão de erro (cross-val-score). Análise e interpretaçao de resultados.
+Nesta última etapa utilizou-se a aprendizagem supervisionada de forma a avaliar o impacto do treino de resistência progressivo no músculo e comparar períodos temporais distintos, além de segmentar os dados para análises detalhadas em diferentes momentos.
+Para tal os dados de treino e teste foram divididos em 70% e 30% respetivamente e examinou-se como a variável target está disposta nos conjuntos de treino e teste.
+Após a divisão dos dados, implementou-se diversos modelos de aprendizagem máquina supervisionada, entre eles, Árvores de Decisão, Regressão Logística, SVM, NB, KNN.
+Por fim realizou-se a análise de comportamento de modelos baseada em métricas de erro, nomeadamente accuracy e ROC, e aplicação de métodos de previsão de erro, cross-val-score. Ainda efetuou-se a análise e interpretaçao de resultados.
+
+
 
 
 
